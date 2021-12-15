@@ -2,7 +2,7 @@
 L’objectif de ce travail est de développer une application pour commander en ligne des 
 pizzas avec livraison à domicile. Cette application fournit deux interfaces principales : 
 interface « Client » et interface « Administrateur ». 
-I. Partie1 - Interface Client :
+## I. Partie1 - Interface Client :
 L’interface « Client » offre la page « Menu.html » représentant le menu sous forme de cases 
 à cocher.
 En appuyant sur le bouton « Ajouter au panier », la servlet « Ajouter.java » sera invoquée si 
@@ -23,7 +23,7 @@ Suite à la validation, la servlet « Commander.java » est invoquée : un bean
 prénom, son adresse, sa liste des pizzas et le prix total. L’ensemble de toutes les commandes 
 des clients doivent être stockés dans le contexte de l’application pour que l’administrateur 
 puisse accéder à ces beans.
-II. Partie2 - Interface Administrateur :
+## II. Partie2 - Interface Administrateur :
 L’interface « Administrateur » offre un lien « Commandes non traitées ». Ce lien permet 
 d’invoquer une servlet « Commandes.java » permettant d’afficher la liste de toutes les 
 commandes stockées. Pour chaque commande, on affichera le nom et le prénom du client, son 
